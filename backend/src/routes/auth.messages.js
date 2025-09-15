@@ -2,8 +2,8 @@ import express from 'express';
 
 const router = express.Router();
 
-router.get("/signup",(req,res)=>{
-    res.send("Signup");
+router.get("/send",(req,res)=>{
+    res.send("Send Message");
 })
 
 export default router;
